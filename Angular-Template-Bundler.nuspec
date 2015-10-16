@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Angular-Template-Bundler</id>
+        <version>0.0.3.0</version>
+        <title>Angular Template Bundler</title>
+        <authors>William Wood</authors>
+        <owners>wwood</owners>
+        <licenseUrl>https://raw.githubusercontent.com/wmwood/Angular-Template-Bundler/master/LICENSE.md</licenseUrl>
+        <projectUrl>https://github.com/wmwood/Angular-Template-Bundler</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A simple ASP.NET MVC bundle that helps you combine all of your angular html templates into one file and add to your app's template cache.</description>
+        <summary />
+        <copyright>2015</copyright>
+        <language>en-US</language>
+        <tags>angularjs templates bundling System.Web.Optimization</tags>
+        <dependencies>
+            <dependency id="Microsoft.AspNet.Web.Optimization" version="1.1.3" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="wmwood.AngularTemplateBundler\bin\Release\wmwood.AngularTemplateBundler.dll" target="lib\wmwood.AngularTemplateBundler.dll" />
+    </files>
+</package>
